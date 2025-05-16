@@ -9,6 +9,6 @@ def dub(str):
             a.append(str[i])
     return a
 
-str = "aayush"
+str = "aayuush"
 res = dub(str)
 print(res)
