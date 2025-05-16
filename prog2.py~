@@ -1,0 +1,12 @@
+#! /usr/bin/python3
+
+#palindrome 
+
+def palindrome(a):
+    if a == a[::-1]:
+        print("True")
+    else :
+        print("False")
+
+a = input("Enter a word you wanna test for palindrome")
+palindrome(a)

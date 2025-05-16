@@ -1,0 +1,18 @@
+#! /usr/bin/python3
+
+#simple calculator program
+
+a1,b1 = input("Enter a number: ").split(',')
+a=int(a1)
+b=int(b1)
+
+
+"""ADDITION"""
+def add(a,b):
+    print(a+b)
+
+"""SUBSTRACTION"""
+def sub(a,b):
+    print(a-b)
+
+add(a,b)
